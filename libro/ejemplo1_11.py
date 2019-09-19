@@ -1,5 +1,5 @@
-A = ("D")
-B = ("C")
-C = ("B")
-D = ("A")
+A = str("D")
+B = str("C")
+C = str("B")
+D = str("A")
 
