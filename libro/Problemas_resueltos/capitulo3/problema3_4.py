@@ -6,8 +6,7 @@ while (SUE != -1):
     else:
         NSUE = SUE * 1.12
     NOM = NOM + NSUE
-    print(f"{NSUE}")
-    SUE = bool(int(input("¿Hay otro sueldo? (SI=1, NO=0):")))
-print(f"El nuevo sueldo del trabajador es de {NSUE}.")
+    print(f"Tu nuevo sueldo es {NSUE}.")
+    SUE = float(input("¿Hay otro sueldo?:"))
 print(f"El acumulado de los nuevos sueldos de los trabajadores es de {NOM}.")
-print(f"Fin del programa!!")
+print("Fin del programa!!")
